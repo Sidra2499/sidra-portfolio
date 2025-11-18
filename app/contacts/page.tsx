@@ -1,7 +1,11 @@
 "use client";
 
-import Contacts from '../components/Contacts';
+import Contacts from "../components/Contacts";
 
 export default function ContactsPage() {
-  return <Contacts />;
+  return (
+    <main>
+      <Contacts />
+    </main>
+  );
 }
